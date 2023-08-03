@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+</head>
+<body>
+    <div id="jsr">
+        Jamshedpur
+    </div>
+    <button onclick="fun()">show</button>
+
+    <div id="adi">
+        Adityapur
+    </div>
+    
+    <button onclick="get()">show</button>
+
+
+    <div id="ranchi">
+        Ranchi
+    </div>
+
+    
+    <button onclick="ranchi()">show</button>
+
+
+    <script>
+        function fun()
+        {
+            document.getElementById("jsr").style.display="show";
+            document.getElementById("get").style.display="none";
+            document.getElementById("ranchi").style.display="none";
+        }
+
+
+        
+        function get()
+        {
+            document.getElementById("jsr").style.display="none";
+            document.getElementById("adi").style.display="show";
+            document.getElementById("ranchi").style.display="none";
+        }
+        
+        
+        
+        function ranchi()
+        {
+            document.getElementById("jsr").style.display="none";
+            document.getElementById("get").style.display="none";
+            document.getElementById("ranchi").style.display="show";
+        }
+
+
+        
+    </script>
+</body>
+</html>
